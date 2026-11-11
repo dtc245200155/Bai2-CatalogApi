@@ -52,3 +52,13 @@ The API project uses:
 - Properties/launchSettings.json for local launch profiles.
 
 Do not commit passwords, API keys, or other private credentials.
+
+## Catalog Client
+
+Catalog.Client is a console application used to communicate with the Catalog API.
+
+Run the client with:
+
+dotnet run --project src/Catalog.Client/Catalog.Client.csproj
+
+Make sure the API server is running before starting the client.
