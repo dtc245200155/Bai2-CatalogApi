@@ -35,3 +35,11 @@ Use the requests.http file to send HTTP requests and verify API responses.
 - src/Catalog.Client: Console application for API requests.
 - requests.http: HTTP requests for API testing.
 - CatalogApi.slnx: Solution file.
+
+## Development Environment
+
+- Framework: ASP.NET Core Web API
+- Runtime: .NET 10
+- Programming language: C#
+- IDE: Visual Studio / Visual Studio Code
+- Version control: Git and GitHub
