@@ -28,3 +28,10 @@ dotnet run --project src/Catalog.Api/Catalog.Api.csproj
 
 ### HTTP requests
 Use the requests.http file to send HTTP requests and verify API responses.
+
+## Project Structure
+
+- src/Catalog.Api: ASP.NET Core RESTful API.
+- src/Catalog.Client: Console application for API requests.
+- requests.http: HTTP requests for API testing.
+- CatalogApi.slnx: Solution file.
