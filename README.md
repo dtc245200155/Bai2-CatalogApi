@@ -62,3 +62,12 @@ Run the client with:
 dotnet run --project src/Catalog.Client/Catalog.Client.csproj
 
 Make sure the API server is running before starting the client.
+
+## API Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | / | API information |
+| GET | /api/products | Get all products |
+| GET | /api/products/{id} | Get product by ID |
+| POST | /api/products | Create a product |
