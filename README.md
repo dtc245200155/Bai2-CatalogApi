@@ -71,3 +71,13 @@ Make sure the API server is running before starting the client.
 | GET | /api/products | Get all products |
 | GET | /api/products/{id} | Get product by ID |
 | POST | /api/products | Create a product |
+
+## Error Handling
+
+The API uses appropriate HTTP status codes to indicate request results.
+
+- 200 OK: Request completed successfully.
+- 201 Created: Resource created successfully.
+- 400 Bad Request: Invalid request data.
+- 404 Not Found: Requested resource does not exist.
+- 415 Unsupported Media Type: Unsupported content type.
