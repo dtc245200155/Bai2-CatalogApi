@@ -43,3 +43,12 @@ Use the requests.http file to send HTTP requests and verify API responses.
 - Programming language: C#
 - IDE: Visual Studio / Visual Studio Code
 - Version control: Git and GitHub
+
+## Configuration
+
+The API project uses:
+- appsettings.json for application configuration.
+- appsettings.Development.json for development settings.
+- Properties/launchSettings.json for local launch profiles.
+
+Do not commit passwords, API keys, or other private credentials.
