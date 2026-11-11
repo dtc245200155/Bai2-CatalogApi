@@ -81,3 +81,11 @@ The API uses appropriate HTTP status codes to indicate request results.
 - 400 Bad Request: Invalid request data.
 - 404 Not Found: Requested resource does not exist.
 - 415 Unsupported Media Type: Unsupported content type.
+
+## Project Requirements
+
+- ASP.NET Core Web API
+- RESTful API endpoints
+- JSON request and response format
+- HTTP status code handling
+- Console client for API interaction
