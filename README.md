@@ -13,3 +13,18 @@ RESTful API cho ung dung phan tan.
 
 ## Run
 dotnet run --project src/Catalog.Api/Catalog.Api.csproj
+
+## API Testing
+
+### Start the API
+dotnet run --project src/Catalog.Api/Catalog.Api.csproj
+
+### Test endpoints
+- GET / : Check API status
+- GET /api/products : Get all products
+- GET /api/products/1 : Get product by ID
+- GET /api/products/999 : Test not found response
+- POST /api/products : Create a new product
+
+### HTTP requests
+Use the requests.http file to send HTTP requests and verify API responses.
